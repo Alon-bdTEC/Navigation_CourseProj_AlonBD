@@ -24,7 +24,7 @@ The goal was to compare how A\* behaves when used for **online navigation**, rev
 ## 📊 Key Findings
 | Scenario | Robot Type | Knowledge | Performance |
 |-----------|-------------|------------|--------------|
-| Offline A* | Rectangular | Full map | Fast & efficient (~hundreds of iterations) |
+| Offline A* | Rectangular | Full map | Fast & efficient – ~hundreds of iterations done in seconds |
 | Online A* | Disk | Partial (online) | Very slow – thousands of iterations, poor response |
 
 Even with adjustments, **A\*** performs badly online because it re-plans from scratch whenever new obstacles appear.  
