@@ -44,9 +44,3 @@ In online mode, h(n) constantly becomes outdated, forcing repeated recalculation
 - MATLAB (R2023a or later)  
 - Simple occupancy grid map of apartment  
 - Visualization of node expansion and final path  
-
-Example run:
-```matlab
-map = load('apartment_map.mat');
-[start, goal] = deal([2,2], [18,15]);
-path = Astar_Search(map, start, goal);
