@@ -14,8 +14,9 @@ The goal was to compare how A\* behaves when used for **online navigation**, rev
 ---
 
 ## ⚙️ What Was Done
-- Implemented the **A\*** algorithm for path planning in MATLAB.  
-- Modeled the apartment as a 2D grid map (walls = obstacles).  
+- Using the geometry of the robot A and the apartment, find the partial C-obstalce for each angle between the robot and seperate parts of the apartment and merging for the CB with the whole room.
+- Discretizing the C-obstacle into a grid of free-spaces the robot can be in for each angle from 0 to 2pi.
+- Implemented the **A\*** algorithm for path planning in MATLAB.   
 - Used the same **Start** and **Goal** for both robot types.  
 - Ran simulations measuring path length, iterations, and computation time.  
 
